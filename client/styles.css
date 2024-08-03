@@ -1,0 +1,65 @@
+body {
+    background-color: #0f0f23;
+    color: #00ffff;
+    font-family: 'Courier New', monospace;
+}
+
+#watch-face {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-color: #1a1a4a;
+    margin: 50px auto;
+    position: relative;
+    overflow: hidden;
+}
+
+#icons-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    padding: 20px;
+}
+
+.icon-slot {
+    width: 50px;
+    height: 50px;
+    background-color: #2a2a6a;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+#navigation {
+    text-align: center;
+    margin-top: 20px;
+}
+
+button {
+    background-color: #1a1a4a;
+    color: #00ffff;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+#exit {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+
+/* Add this for the world clock display */
+#world-clock {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 18px;
+    z-index: 10;
+}
