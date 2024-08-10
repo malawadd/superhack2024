@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Options</title>
+</head>
+<body>
+  <h1>Select an Option</h1>
+  <button onclick="selectOption(1)">Option 1</button>
+  <button onclick="selectOption(2)">Option 2</button>
+  <button onclick="selectOption(3)">Option 3</button>
+  <button onclick="selectOption(4)">Option 4</button>
+
+  <script>
+    function selectOption(option) {
+      window.electronAPI.selectOption(option);
+    }
+  </script>
+</body>
+</html>

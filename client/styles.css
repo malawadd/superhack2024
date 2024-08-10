@@ -1,65 +1,54 @@
 body {
-    background-color: #0f0f23;
-    color: #00ffff;
-    font-family: 'Courier New', monospace;
+  width: 100vw;
+  overflow: hidden;
 }
 
-#watch-face {
-    width: 300px;
-    height: 300px;
-    border-radius: 50%;
-    background-color: #1a1a4a;
-    margin: 50px auto;
-    position: relative;
-    overflow: hidden;
+.chatbox {
+  box-sizing: border-box;
+
+  border-radius: 0.1rem;
+  
+  padding: 1rem;
+  padding-top: 0.8rem;
+
+  width: 100%;
+  
+  outline: none;
+  background-color: #2d2f31 !important;
+  
+  color: rgb(174, 174, 174);
+  font-size: 1.5rem;
+
+  resize: none;
+  overflow: hidden;
+  border: 1px solid rgb(64, 64, 64);
 }
 
-#icons-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 10px;
-    padding: 20px;
+.chatbox-border {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  background: #202123;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 5px;
+  position: absolute; 
+  bottom: 0;
 }
 
-.icon-slot {
-    width: 50px;
-    height: 50px;
-    background-color: #2a2a6a;
-    border-radius: 50%;
-    transition: all 0.3s ease;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
+.button {
+  cursor: pointer;
+  height: 40px;
+  position: absolute;
+  bottom: 0;
 }
 
-#navigation {
-    text-align: center;
-    margin-top: 20px;
+.button-area {
+  margin: 10px;
+  width: 10%;
+  position: relative;
 }
 
-button {
-    background-color: #1a1a4a;
-    color: #00ffff;
-    border: none;
-    padding: 10px 20px;
-    margin: 0 10px;
-    cursor: pointer;
-}
-
-#exit {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    cursor: pointer;
-}
-
-/* Add this for the world clock display */
-#world-clock {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 18px;
-    z-index: 10;
+body {
+  width: 100%;
 }
