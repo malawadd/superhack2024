@@ -1,0 +1,6 @@
+services:
+  oracle_superhack-1:
+    build: .
+    ports:
+      - "9103:8000"
+    restart: "unless-stopped"
