@@ -1,3 +1,6 @@
 
 /client/node_modules
 /contracts
+smart-contracts/test/Vitailik.ts
+smart-contracts/contracts/AnthropicChatGpt.sol
+smart-contracts/contracts/Vitailik.sol
