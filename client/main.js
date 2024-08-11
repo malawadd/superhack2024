@@ -221,6 +221,7 @@ function handleSubmitMessage(event, type, message) {
     .catch(error => {
       // Handle error
       console.error('Error fetching conversation:', error);
+      showMessage(error)
     });
   }
   else if (type === "response-size") {

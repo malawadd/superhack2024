@@ -5,3 +5,9 @@ smart-contracts/test/Vitailik.ts
 smart-contracts/contracts/AnthropicChatGpt.sol
 smart-contracts/contracts/Vitailik.sol
 /test
+backend/.env
+/backend/node_modules
+backend/readme
+backend/squidswap/index copy 2.js
+backend/squidswap/index copy.js
+backend/squidswap/v1.js
