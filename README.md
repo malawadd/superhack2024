@@ -98,8 +98,11 @@ npm start
 ## 🤝 Conduit Chain details: 
 
 Chain name: super-mukaeb-testnet
+
 Chain Id: 852024
+
 RPC: https://rpc-super-mukaeb-testnet-aigxcpckcf.t.conduit.xyz
+
 Block Explorer: https://explorer-super-mukaeb-testnet-aigxcpckcf.t.conduit.xyz
 
 
